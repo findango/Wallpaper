@@ -11,4 +11,3 @@ Some simple repeating wallpapers that I created with the Processing environment:
 ![Osaka Brown](./osaka/osaka-brown.png?raw=true)
 
 ![Starlite](./starlite/starlite.png?raw=true)
-
