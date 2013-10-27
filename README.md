@@ -10,7 +10,7 @@ Flowers<br/>
 ![Flowers](flowers/flowers.png?raw=true)
 
 Osaka<br/>
-![Osaka Blue](osaka/osaka-blue.png?raw=true) ![Osaka Brown](osaka/osaka-brown.png?raw=true)
+![Osaka Blue](osaka/osaka-blue.png?raw=true) ![Osaka Brown](osaka/osaka-brown.png?raw=true) ![Osaka Green](osaka/osaka-green.png?raw=true)
 
 Starlite<br/>
 ![Starlite](starlite/starlite.png?raw=true)

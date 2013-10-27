@@ -4,6 +4,9 @@ int light = #172f4d;
 // brown
 //int dark  = #33170b;
 //int light = #5a3d2f;
+// green
+//int dark = #063009;
+//int light = #254B24;
 
 int h = 25;
 int w = 60;
