@@ -1,10 +1,10 @@
 int grid = 60;
-int bg_color   = #0B1E39;
-int fill_color = #34354B;
-int dot_color  = #2F4B11;
+int bg_color   = #0b1e39;
+int fill_color = #3e3f5e;
+int dot_color  = #2f4b11;
 
 void setup() {
-    size(grid * 4, grid * 4);
+    size(240, 240);
     background(bg_color);
     translate(grid/2, grid/2);
     
@@ -13,7 +13,7 @@ void setup() {
             if ((row%2 ^ col%2) == 0) {
                 star(col*grid, row*grid, 10, 5);
             } else {
-                dot(col*grid, row*grid, 3);
+                dot(col*grid, row*grid, 4);
             }
         }
     }
@@ -45,6 +45,3 @@ void dot(float cx, float cy, float r) {
     fill(dot_color);
     ellipse(cx, cy, r, r);
 }
-
-
-
