@@ -1,7 +1,7 @@
 int grid = 35;
 int bg_color = #3e5e5e;
-int petal_color = #a69d87;
-int center_color = #a28983;
+int petal_color = #97a687;
+int center_color = #a38558;
 
 void setup() {
     size(140, 140);
@@ -76,4 +76,3 @@ void center(int size) {
 
     ellipse(0, 0, size, size);
 }  
-
