@@ -7,7 +7,7 @@ void setup() {
     size(240, 240);
     background(bg_color);
     translate(grid/2, grid/2);
-    
+
     for (int row = 0; row <= height/grid; row++) {
         for (int col = 0; col <= width/grid; col++) {
             if ((row%2 ^ col%2) == 0) {
@@ -17,7 +17,7 @@ void setup() {
             }
         }
     }
-    
+
     save("starlite.png");
 }
 
@@ -30,8 +30,8 @@ void star(float cx, float cy, int outer, int inner) {
     beginShape();
     for (int i = 0; i < 10; i++) {
         float angle = i * TWO_PI/10 - PI/2;
-        float r = (i % 2 == 0) ? outer : inner; 
-        float x = cos(angle) * r; 
+        float r = (i % 2 == 0) ? outer : inner;
+        float x = cos(angle) * r;
         float y = sin(angle) * r;
         vertex(x, y);
     }
